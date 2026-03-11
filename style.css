@@ -1,0 +1,9 @@
+body { font-family: Arial; text-align: center; background: #f0f0f0; }
+header { background: #ffcc00; padding: 15px; }
+.gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; padding: 20px; }
+.photo { border: 2px solid #ccc; padding: 10px; background: #fff; }
+.photo img { max-width: 200px; display: block; margin-bottom: 5px; }
+.photo a { text-decoration: none; background: #0077cc; color: #fff; padding: 5px 10px; border-radius: 5px; }
+form { margin: 20px auto; max-width: 400px; }
+input, button { padding: 8px; margin: 5px 0; width: 100%; }
+button { background: #0077cc; color: #fff; border: none; cursor: pointer; }
